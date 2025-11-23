@@ -1,0 +1,8 @@
+[[mgr.prepend_keymap]]
+on   = [ "g", "e" ]
+run  = "cd /mnt/extra-volume"
+desc = "Cd to /mnt/extra-volume"
+
+[[mgr.prepend_keymap]]
+on = [ "w" ]
+run = "shell '~/.config/matugen/wall-chg.sh $0'"

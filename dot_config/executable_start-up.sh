@@ -20,7 +20,7 @@ if [[ -d "$SOURCEDIR" ]]; then
   chezmoi update --apply --verbose
 else
   echo "No source directory—initializing fresh..."
-  chezmoi init --apply --verbose git@github.com:meowveloper/dotfiles.git
+  chezmoi init --apply --verbose https://github.com/meowveloper/dotfiles.git
 fi
 
 # The package list is now managed by chezmoi, so it’s guaranteed to exist

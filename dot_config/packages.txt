@@ -37,3 +37,7 @@ fzf
 bat
 duf
 fd
+networkmanager-openvpn
+wireguard-tools
+networkmanager
+

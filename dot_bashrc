@@ -4,6 +4,10 @@ export EDITOR=nvim
 export VISUAL=nvim
 export SUDO_EDITOR=nvim
 
+for file in ~/.config/shell/{profile,aliases,interactive} ~/.config/shell/*.bash; do
+    [[ -r "$file" ]] && source "$file"
+done
+
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '

@@ -31,3 +31,9 @@ hyprshot
 waybar
 matugen
 dolphin
+eza
+zoxide
+fzf
+bat
+duf
+fd

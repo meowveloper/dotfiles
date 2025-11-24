@@ -40,3 +40,4 @@ networkmanager-openvpn
 wireguard-tools
 networkmanager
 tmux
+noto-fonts

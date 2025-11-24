@@ -1,7 +1,7 @@
 bash-completion
 starship
 hyprland
-kitty
+ghostty
 git
 qt6-base
 qt6-declarative

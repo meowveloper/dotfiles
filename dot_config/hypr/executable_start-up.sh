@@ -3,11 +3,13 @@
 # 1. DBus environment (must stay first)
 dbus-update-activation-environment --systemd --all
 
-# 2. Create required directories
+# 2. Create required directories and files
 mkdir -p ~/Pictures/Screenshots
 mkdir -p ~/.rmpc-cache
 mkdir -p ~/.config/matugen-outs
 mkdir -p ~/.cache
+touch ~/.config/hypr/src/user-specific.conf
+
 
 hyprpaper &
 sleep 0.3

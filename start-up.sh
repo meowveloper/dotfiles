@@ -23,10 +23,6 @@ else
   chezmoi init --apply --verbose https://github.com/meowveloper/dotfiles.git
 fi
 
-if [ -f ~/.config/hypr/src/user-specific.conf ]; then
-else 
-  echo "# add user specific configuration here" > ~/.config/hypr/src/user-specific.conf
-fi
 
 # The package list is now managed by chezmoi, so it’s guaranteed to exist
 PKGLIST="${SOURCEDIR}/packages.txt"

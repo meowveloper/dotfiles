@@ -38,4 +38,4 @@ fd
 networkmanager-openvpn
 wireguard-tools
 networkmanager
-
+tmux

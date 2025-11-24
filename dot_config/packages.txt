@@ -3,6 +3,7 @@ starship
 hyprland
 ghostty
 git
+base-devel
 qt6-base
 qt6-declarative
 qt6-svg

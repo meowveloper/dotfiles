@@ -2,4 +2,4 @@
 
 source ~/.bashrc
 
-ghostty -e yazi
+ghostty -e yazi "$1"

@@ -21,8 +21,6 @@ rofi
 github-cli
 yazi
 lazygit
-nodejs
-corepack
 brightnessctl
 power-profiles-daemon
 nwg-look

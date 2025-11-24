@@ -1,14 +1,15 @@
-[[ $- != *i* ]] && return
-
-export EDITOR=nvim
-export VISUAL=nvim
-export SUDO_EDITOR=nvim
-
 for file in ~/.config/shell/{profile,aliases,interactive} ~/.config/shell/*.bash; do
     [[ -r "$file" ]] && source "$file"
 done
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+
+
 PS1='[\u@\h \W]\$ '
 

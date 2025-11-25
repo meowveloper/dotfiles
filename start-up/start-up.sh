@@ -31,6 +31,9 @@ echo -e "${GREEN}Updating system and installing all packages${NC}"
 # --needed skips already-installed packages, so the script is safe to re-run
 sudo pacman -Syu --noconfirm --needed - < "$PKGLIST"
 
+echo -e "${GREEN}Updating font cache${NC}"
+fc-cache -f -v
+
 echo -e "${GREEN}Enabling user services${NC}"
 systemctl --user enable --now mpd.service swaync.service
 

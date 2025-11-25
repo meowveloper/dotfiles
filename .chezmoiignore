@@ -1,3 +1,5 @@
 README.md
 start-up.sh
 packages.txt
+.config/nvim/lazy-lock.json
+.config/hypr/src/user-specific.conf

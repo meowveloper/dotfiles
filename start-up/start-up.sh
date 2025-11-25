@@ -31,6 +31,10 @@ echo -e "${GREEN}Updating system and installing all packages${NC}"
 # --needed skips already-installed packages, so the script is safe to re-run
 sudo pacman -Syu --noconfirm --needed - < "$PKGLIST"
 
+# yay install
+YAY_SCRIPT_PATH="${SOURCEDIR}/start-up/yay-install.sh"
+bash YAY_SCRIPT_PATH
+
 echo -e "${GREEN}Updating font cache${NC}"
 fc-cache -f -v
 

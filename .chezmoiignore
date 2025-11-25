@@ -3,3 +3,4 @@ start-up.sh
 packages.txt
 .config/nvim/lazy-lock.json
 .config/hypr/src/user-specific.conf
+.config/shell/user

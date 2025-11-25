@@ -15,7 +15,6 @@ xdg-desktop-portal-gtk
 mpd
 swaync
 swww
-hyprpaper
 ripgrep
 btop
 rofi

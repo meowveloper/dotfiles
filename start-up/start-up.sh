@@ -33,7 +33,7 @@ sudo pacman -Syu --noconfirm --needed - < "$PKGLIST"
 
 # yay install
 YAY_SCRIPT_PATH="${SOURCEDIR}/start-up/yay-install.sh"
-bash YAY_SCRIPT_PATH
+bash "${YAY_SCRIPT_PATH}"
 
 echo -e "${GREEN}Updating font cache${NC}"
 fc-cache -f -v

@@ -25,7 +25,7 @@ fi
 
 
 # The package list is now managed by chezmoi, so it’s guaranteed to exist
-PKGLIST="${SOURCEDIR}/packages.txt"
+PKGLIST="${SOURCEDIR}/start-up/packages.txt"
 
 echo -e "${GREEN}Updating system and installing all packages${NC}"
 # --needed skips already-installed packages, so the script is safe to re-run

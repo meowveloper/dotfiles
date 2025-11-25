@@ -10,13 +10,10 @@ mkdir -p ~/.config/matugen-outs
 mkdir -p ~/.cache
 touch ~/.config/hypr/src/user-specific.conf
 
-
-hyprpaper &
-sleep 0.3
+# swww
 swww-daemon &
-sleep 0.6
 
-
+# matugen
 if [[ -f ~/.cache/last-wallpaper.txt ]] && [[ -n "$(cat ~/.cache/last-wallpaper.txt)" ]]; then
     WALL=$(cat ~/.cache/last-wallpaper.txt)
     if [[ -f "$WALL" ]]; then

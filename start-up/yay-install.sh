@@ -1,5 +1,7 @@
 #!/bin/bash
 BUILD_DIR="/tmp/yay-install-build"
+SOURCEDIR="${HOME}/.local/share/chezmoi"
+PKGLIST="${SOURCEDIR}/start-up/extra-packages.txt"
 
 echo "Attempting to install yay..."
 
@@ -20,3 +22,9 @@ makepkg -si --noconfirm
 rm -rf "$BUILD_DIR"
 
 echo "yay installation complete."
+
+echo "installing extra packages."
+
+cat "$PKGLIST" | yay -S - --noconfirm --needed
+
+echo "installation of extra packages complete."

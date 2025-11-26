@@ -1,3 +1,4 @@
 git-lfs
 librewolf-bin
 webapp-manager
+cloudflare-warp-bin

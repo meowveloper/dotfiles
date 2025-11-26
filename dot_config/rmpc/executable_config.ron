@@ -6,6 +6,7 @@
     password: None,
     theme: None,
     cache_dir: "~/.rmpc-cache",
+    lyrics_dir: "~/Music/lyrics",
     on_song_change: None,
     volume_step: 5,
     max_fps: 30,
@@ -125,7 +126,7 @@
             name: "Queue",
             pane: Split(
                 direction: Horizontal,
-                panes: [(size: "40%", pane: Pane(AlbumArt)), (size: "60%", pane: Pane(Queue))],
+                panes: [(size: "30%", pane: Pane(AlbumArt)), (size: "30%", pane: Pane(Lyrics)), (size: "40%", pane: Pane(Queue))],
             ),
         ),
         (

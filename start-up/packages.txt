@@ -40,3 +40,4 @@ wireguard-tools
 networkmanager
 tmux
 noto-fonts
+hyprsunset

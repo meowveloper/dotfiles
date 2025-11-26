@@ -11,6 +11,7 @@ mkdir -p ~/.cache
 touch ~/.config/hypr/src/user-specific.conf
 touch ~/.config/shell/user
 
+hyprsunset & 
 # swww
 swww-daemon &
 

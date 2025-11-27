@@ -12,8 +12,9 @@ touch ~/.config/hypr/src/user-specific.conf
 touch ~/.config/shell/user
 
 hyprsunset & 
-# swww
 swww-daemon &
+swaync & 
+
 
 # matugen
 if [[ -f ~/.cache/last-wallpaper.txt ]] && [[ -n "$(cat ~/.cache/last-wallpaper.txt)" ]]; then

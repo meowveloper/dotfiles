@@ -1,0 +1,1 @@
+dot_config/wallpapers filter=lfs diff=lfs merge=lfs -text

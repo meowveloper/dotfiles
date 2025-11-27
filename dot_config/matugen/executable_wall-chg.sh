@@ -2,6 +2,7 @@
 # ~/.config/yazi/set-wallpaper.sh
 WALL="$1"
 
-echo "$WALL" > ~/.cache/last-wallpaper.txt
+rm ~/.cache/last-wallpaper
+cp "${WALL}" ~/.cache/last-wallpaper
 
 matugen image "$WALL"

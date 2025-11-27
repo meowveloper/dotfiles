@@ -20,14 +20,8 @@ swaync &
 
 
 # matugen
-if [[ -f ~/.cache/last-wallpaper.txt ]] && [[ -n "$(cat ~/.cache/last-wallpaper.txt)" ]]; then
-    WALL=$(cat ~/.cache/last-wallpaper.txt)
-    if [[ -f "$WALL" ]]; then
-        matugen image "$WALL"
-    else
-        # fallback if the file got deleted/moved
-        matugen image ~/.config/wallpapers/wallhaven-57qky5.jpg
-    fi
+if [[ -f ~/.cache/last-wallpaper ]]; then
+    matugen image ~/.cache/last-wallpaper
 else
     matugen image ~/.config/wallpapers/wallhaven-57qky5.jpg
 fi

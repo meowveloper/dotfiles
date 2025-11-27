@@ -39,10 +39,10 @@ echo -e "${GREEN}Updating font cache${NC}"
 fc-cache -f -v
 
 echo -e "${GREEN}Enabling user services${NC}"
-systemctl --user enable --now mpd.service swaync.service
+# systemctl --user enable --now mpd.service swaync.service
 
 echo -e "${GREEN}Enabling system-wide services (if needed)${NC}"
-sudo systemctl enable --now warp-svc.service
+sudo systemctl enable --now warp-svc.service mpd.service swaync.service
 
 echo -e "${GREEN}All done! You can reboot now or just log out/in.${NC}"
 echo "    reboot"

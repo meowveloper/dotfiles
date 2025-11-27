@@ -11,6 +11,9 @@ mkdir -p ~/.cache
 touch ~/.config/hypr/src/user-specific.conf
 touch ~/.config/shell/user
 
+# start services
+systemctl --user enable --now mpd.service
+
 hyprsunset & 
 swww-daemon &
 swaync & 

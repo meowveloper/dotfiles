@@ -1,1 +1,5 @@
 dot_config/wallpapers filter=lfs diff=lfs merge=lfs -text
+dot_config/wallpapers/wallhaven-281r1y.jpg filter=lfs diff=lfs merge=lfs -text
+dot_config/wallpapers/wallhaven-4712jo.png filter=lfs diff=lfs merge=lfs -text
+dot_config/wallpapers/wallhaven-57qky5.jpg filter=lfs diff=lfs merge=lfs -text
+dot_config/wallpapers/wallhaven-po9eop.jpg filter=lfs diff=lfs merge=lfs -text

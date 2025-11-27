@@ -28,7 +28,6 @@ rmpc
 hyprshot
 waybar
 matugen
-dolphin
 eza
 zoxide
 fzf
@@ -41,3 +40,4 @@ networkmanager
 tmux
 noto-fonts
 hyprsunset
+nautilus

@@ -41,3 +41,4 @@ tmux
 noto-fonts
 hyprsunset
 nautilus
+hyprlock

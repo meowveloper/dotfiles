@@ -42,3 +42,5 @@ noto-fonts
 hyprsunset
 nautilus
 hyprlock
+vlc
+vlc-plugin-ffmpeg

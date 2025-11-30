@@ -3,3 +3,4 @@ librewolf-bin
 webapp-manager
 cloudflare-warp-bin
 wlogout
+aylurs-gtk-shell-git

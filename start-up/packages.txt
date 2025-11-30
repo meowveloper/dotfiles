@@ -44,3 +44,4 @@ nautilus
 hyprlock
 vlc
 vlc-plugin-ffmpeg
+dart-sass
